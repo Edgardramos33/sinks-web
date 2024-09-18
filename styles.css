@@ -77,3 +77,19 @@ nav ul a {
 #footer p {
     color: black;
 }
+
+@media (max-width: 768px) {
+    .sinks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .sinks {
+        grid-template-columns: 1fr;
+    }
+
+    nav ul a {
+        font-size: 16px;
+    }
+}
