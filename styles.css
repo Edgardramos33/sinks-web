@@ -31,19 +31,21 @@ nav ul {
     background-color: #4d4d4d;
 }
 nav ul a {
-    margin: 10px;
+    margin: 15px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
 .sinks {
-    max-width: 150%;
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 100px;
+    margin-top: 30px;
+    margin-left: 80px;
 }
 .image-containers {
-    max-width: 90%;
+    max-width: 80%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -67,7 +69,7 @@ nav ul a {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:#bdbbbb;
+    background-color:#888888;
     text-align: center;
     height: 30px;
     justify-content: center;
