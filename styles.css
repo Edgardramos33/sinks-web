@@ -89,7 +89,7 @@ nav ul a {
 @media (max-width: 500px) {
     .sinks {
         grid-template-columns: 1fr;
-        margin-right: 20px;
+        margin-right: 40px;
     }
 
     nav ul a {
