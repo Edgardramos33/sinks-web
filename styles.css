@@ -92,7 +92,7 @@ nav ul a {
     }
 
     nav ul a {
-        margin: 0;
+        margin: 5px;
         text-align:center;
         font-size: 10px;
         border:solid black;
