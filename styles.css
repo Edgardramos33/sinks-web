@@ -94,8 +94,6 @@ nav ul a {
     nav ul a {
         text-align:center;
         font-size: 10px;
-    }
-    .nav {
         border:solid black;
     }
 }
