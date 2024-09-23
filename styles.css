@@ -86,7 +86,7 @@ nav ul a {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .sinks {
         grid-template-columns: 1fr;
     }
@@ -95,7 +95,7 @@ nav ul a {
         text-align:center;
         font-size: 10px;
     }
-    nav {
+    .nav {
         border:solid black;
     }
 }
