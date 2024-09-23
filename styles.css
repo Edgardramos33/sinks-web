@@ -95,7 +95,6 @@ nav ul a {
     nav ul a {
         margin: 5px;
         font-size: 10px;
-        border:solid black;
     }
     nav {
         display:flex;
