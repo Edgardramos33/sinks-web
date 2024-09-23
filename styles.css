@@ -89,11 +89,16 @@ nav ul a {
 @media (max-width: 500px) {
     .sinks {
         grid-template-columns: 1fr;
-        margin-right: 40px;
+        margin-right: 50px;
     }
 
     nav ul a {
         margin: 5px;
         font-size: 10px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
