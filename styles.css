@@ -12,25 +12,25 @@ body {
 }
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #242424;
     padding: 10px;
     flex-wrap: wrap;
+    padding: 20px;
 }
 .header h1, p {
-    text-align: center;
+    text-align: start;
     margin: 10px;
     color: white;
     justify-content: center;
 }
-nav ul {
+nav {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin: 0;
-    background-color: #4d4d4d;
+    margin-top: 12px;
 }
-nav ul a {
+nav a {
     margin: 15px;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -43,6 +43,7 @@ nav ul a {
     margin-bottom: 100px;
     margin-top: 30px;
     margin-left: 80px;
+    flex-wrap: wrap;
 }
 .image-containers {
     max-width: 80%;
@@ -78,12 +79,6 @@ nav ul a {
 }
 #footer p {
     color: black;
-}
-
-@media (max-width: 768px) {
-    .sinks {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 @media (max-width: 500px) {
